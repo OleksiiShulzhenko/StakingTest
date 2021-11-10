@@ -1,0 +1,29 @@
+{
+  "name": "StakingTest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:bscTestnet": "hardhat run scripts/deploy.js --network bscTestnet",
+    "deploy:bscMainnet": "hardhat run scripts/deploy.js --network bscMainnet"
+  },
+  "keywords": [],
+  "author": "Oleksii S inc",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@nomiclabs/hardhat-etherscan": "2.1.2",
+    "@nomiclabs/hardhat-waffle": "2.0.1",
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/test-helpers": "0.5.11",
+    "assert": "2.0.0",
+    "chai": "4.3.4",
+    "dotenv": "8.2.0",
+    "ethers": "5.1.0",
+    "hardhat": "^2.3.3",
+    "hardhat-gas-reporter": "^1.0.4",
+    "mocha": "9.0.0"
+  }
+}
